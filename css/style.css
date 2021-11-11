@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.topo {
+    width: 100%;
+    background-color: #000000;
+    height: 120px;
+}
+.cabecalho{
+    width: 980px;
+    margin: auto;
+}
+.logo {
+    padding: 18px;
+    width: 360px;
+    margin-left: 306px;
+}
+.menu-principal{
+    background-color: rgb(255, 253, 253);
+    width: 100%;
+    margin: auto;
+    height: 65px;
+}
+.menu-principal{
+    border-bottom: 3px solid #efefef;
+}
+.menu-links-principais{
+    width: 644px;
+    margin: auto;
+    text-align: center;
+}
+.menu-links-principais ul{
+    padding: 22px;
+}
+.menu-links-principais ul li{
+    display: inline;
+    text-transform: uppercase;
+    position: relative;
+}
+.menu-links-principais ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #b2b2b2;
+    padding: 26px 9px;
+}
+.menu-links-principais ul li a:hover{
+    color: #000000;
+}
+.categorias{
+    display: none;
+    position: absolute;
+    width: 648px;
+    margin: 23.5px 0 ;
+    z-index: 999;
+}
+.menu-links-principais .bt-inicial:hover .categorias{
+    display: block;
+}
+.categorias ul{
+    height: auto;
+    position: relative;
+    padding: 0 ;
+    background-color: rgb(202, 202, 202);
+    margin: 0 ;
+    overflow: hidden;
+    display: block;
+    
+}
+.categorias ul li{
+    width: 202px;
+    min-height: 35px;
+    background: none;
+    position: relative;
+    padding: 0 0 5px 0;
+    margin: 0 12px 0 2px;
+    border-bottom: 1px solid #000000;
+    float: left;
+    height: 40px;
+
+}
+.categorias ul li:hover{
+    text-decoration: underline;
+    background-color:rgb(117, 117, 117);
+}
+.categorias ul li a{
+   font: normal 14px  Arial, sans-serif;
+  display: inline;
+  color: #000000;
+}
+.image-categoria{
+    width: 45px;
+    height: 35px;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 1px;
+    border: 1px solid #000000;
+
+    
+}
+.slider{
+    width: 100%;
+}
+.slider-principal{
+    position: relative;
+}
+button.slick-prev {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../IMG/anterior3.png);
+    left: 14%;
+    top: 35.5%;
+}
+button.slick-next {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../IMG/proximo3.png);
+    top: 35%;
+    right: 14%;
+}
+.slick-list{
+    width: 100%!important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 3px solid #000000;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 46%;
+    top: 89%;
+}
+li.slick-active button{
+    background: #000000;
+}
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+.propaganda{
+    width: 100%;
+    height: 500px;
+}
+.propaganda div{
+    text-align: center;
+    margin: 50px 20px 20px 20px;
+}
+.propaganda div h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #000000;
+    font: normal Trebuchet MS, Arial, Helvetica, sans-serif
+}
+.logo-marcas{
+  margin: 0;
+}
+.logo-marcas div{
+   position: relative;
+   display: inline-block;
+   margin: 0;
+}
+.logo-marcas div img{
+    border: 2px solid #000000 ;
+    margin: 20px;
+}
+.rodape{
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-color: #000000;
+    text-align: center;
+}
+.conteudo{
+    display: inline-flex;
+}
+.conteudo div{
+margin: 10px;
+}
+.conteudo div h2{
+    text-transform: uppercase;
+    color: #b2b2b2;
+}
+.conteudo div ul{
+    padding: 15px;
+}
+.conteudo div ul li{
+    padding: 5px;
+}
+.conteudo div a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #b2b2b2;
+}
+.conteudo div a:hover{
+    text-decoration: underline;
+    color: #21b321;
+}
+.vmiddle {
+    vertical-align: middle;
+}
+.f20 {
+    font-size: 20px;
+}
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+}
+.fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+/*------------------------------------PG SERVIÇOS--------------------------------------*/
+.master{
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    background-color: #b2b2b2;
+}
+.container{
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    z-index: 999;
+    
+}
+.conteudo-servicos{
+    width: 980px;
+    height: 2500px;
+    border: 1px solid #000000;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+.ttl-servicos h1{
+    text-transform: uppercase;
+    color: #666666;
+    font: normal 26px 'futura_md_btbold';
+}
+.ttl-servicos p{
+  font-size: 22px;
+  color: #111111;
+  text-align: center;
+  margin: 10px;
+  border: 4px dotted #00ff0d;
+}
+.ttl-servicos a:hover h2{
+    text-decoration: underline;
+    color: #21b321;
+}
+.box-dicas{
+    width: 304px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #000000;
+    position: relative;
+    float: left;
+    background-color: #666666;
+}
+.box-dicas h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    color: #202020;
+    margin: 20px;
+}
+.box-image{
+    width: 260px;
+    height: 180px;
+    border: 1px solid #000000;
+    margin: 20px;
+}
